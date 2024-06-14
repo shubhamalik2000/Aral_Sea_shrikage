@@ -5,7 +5,7 @@ st.write('''
 Over the years, the surface area of the Aral Sea has been descreing. So, here is the processed data to showcase, the findings. 
 ''')
 
-st.image(r"Deployement\original.png", caption = 'Data image, with a gap of 23 years')
+st.image(r"Deployement\original.jpg", caption = 'Data image, with a gap of 23 years')
 
 latex_exp1 = "\[ d(p, q) = \sqrt{\sum_{i=1}^n (p_i - q_i)^2} \]"
 
