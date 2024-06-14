@@ -5,7 +5,7 @@ st.write('''
 Over the years, the surface area of the Aral Sea has been descreing. So, here is the processed data to showcase, the findings. 
 ''')
 
-st.image(r"Deployement\original.jpg", caption = 'Data image, with a gap of 23 years')
+st.image(r"Deployement/original.jpg", caption = 'Data image, with a gap of 23 years')
 
 latex_exp1 = "\[ d(p, q) = \sqrt{\sum_{i=1}^n (p_i - q_i)^2} \]"
 
@@ -39,16 +39,16 @@ Chebyshev distance, also known as L∞ distance, measures the maximum distance o
 
 
 st.header('Using Euclidean Distance')
-st.image(r"Deployement\euclidean.png")
+st.image(r"Deployement/euclidean.png")
 
 st.header('Using Manhattan Distance')
-st.image(r"Deployement\manhattan.png")
+st.image(r"Deployement/manhattan.png")
 
 st.header('Using Chebyshev Distance')
-st.image(r"Deployement\chebyshev.png")
+st.image(r"Deployement/chebyshev.png")
 
 st.header('Working of various distance metrics')
-st.image(r"Deployement\comparison.png")
+st.image(r"Deployement/comparison.png")
 
 st.header('Findings')
 st.write('Our calculation shows that there has been 89% decrease in the surface area. \n Check the calculation here: https://github.com/shubhamalik2000/Aral_Sea_shrikage')
